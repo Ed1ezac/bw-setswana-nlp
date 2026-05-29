@@ -1,0 +1,106 @@
+{
+  "locale": "tn-BW",
+  "language": "Setswana",
+  "language_tn": "Setswana",
+  "territory": "Botswana",
+  "script": "Latn",
+  "text_direction": "ltr",
+  "currency": {
+    "code": "BWP",
+    "name": "Botswana Pula",
+    "name_tn": "Pula ya Botswana",
+    "symbol": "P",
+    "subunit": "thebe",
+    "subunit_symbol": "t",
+    "decimal_digits": 2,
+    "format": "P#,##0.00",
+    "notes": "Pula (pu·la) means 'rain' in Setswana — a symbol of blessing and prosperity."
+  },
+  "numbers": {
+    "decimal_separator": ".",
+    "group_separator": ",",
+    "group_size": 3,
+    "percent_symbol": "%",
+    "format_decimal": "#,##0.###",
+    "format_percent": "#,##0%"
+  },
+  "dates": {
+    "calendar": "gregorian",
+    "first_day_of_week": "monday",
+    "date_format_short": "dd/MM/yyyy",
+    "date_format_medium": "d MMM yyyy",
+    "date_format_long": "d MMMM yyyy",
+    "date_format_full": "EEEE, d MMMM yyyy",
+    "time_format_short": "HH:mm",
+    "time_format_medium": "HH:mm:ss",
+    "months_long": [
+      "Ferikgong",
+      "Tlhakole",
+      "Mopitlwe",
+      "Moranang",
+      "Motsheanong",
+      "Seetebosigo",
+      "Phukwi",
+      "Phatwe",
+      "Lwetse",
+      "Diphalane",
+      "Ngwanatsele",
+      "Sedimonthole"
+    ],
+    "months_short": [
+      "Fer",
+      "Tlh",
+      "Mop",
+      "Mor",
+      "Mot",
+      "See",
+      "Phu",
+      "Pha",
+      "Lwe",
+      "Dip",
+      "Ngw",
+      "Sed"
+    ],
+    "days_long": [
+      "Mosupologo",
+      "Labobedi",
+      "Laboraro",
+      "Labone",
+      "Labotlhano",
+      "Matlhatso",
+      "Latsatsi"
+    ],
+    "days_short": [
+      "Mos",
+      "Lbb",
+      "Lbr",
+      "Lbn",
+      "Lbt",
+      "Mat",
+      "Lat"
+    ],
+    "days_min": [
+      "Mo",
+      "Lb",
+      "Lr",
+      "Ln",
+      "Lt",
+      "Ma",
+      "La"
+    ],
+    "am_pm": ["AM", "PM"],
+    "notes": "Month and day names need native speaker verification against official Botswana publications. Months source: traditional Setswana calendar names as used in Botswana. Days source: common usage — verify abbreviations with native speakers."
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "license": "CC BY 4.0",
+    "attribution": "bw-setswana-nlp contributors, https://github.com/ed1ezac/bw-setswana-nlp",
+    "cldr_relationship": "This file is the project's working format. Long-term goal: contribute verified data to CLDR under locale 'tn-BW'. See docs/contributing/locale-guide.md.",
+    "needs_verification": [
+      "months_short abbreviations",
+      "days_short abbreviations",
+      "days_min abbreviations",
+      "date_format_full day name ordering"
+    ]
+  }
+}

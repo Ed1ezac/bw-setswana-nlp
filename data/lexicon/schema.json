@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ed1ezac/bw-setswana-nlp/data/lexicon/schema.json",
+  "title": "Setswana Lexicon Entry",
+  "description": "Schema for a single entry in the bw-setswana-nlp lexicon dataset (tn-BW)",
+  "type": "object",
+  "required": ["word", "pos", "definition_en"],
+  "additionalProperties": false,
+  "properties": {
+    "word": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The Setswana word in standard tn-BW orthography (NFC normalized)"
+    },
+    "pos": {
+      "type": "string",
+      "enum": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "conjunction",
+        "interjection",
+        "preposition",
+        "particle"
+      ],
+      "description": "Part of speech tag"
+    },
+    "noun_class": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 18,
+      "description": "Bantu noun class number (nouns only). See docs/noun-classes.md for the class system."
+    },
+    "definition_en": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Definition in English (required)"
+    },
+    "definition_tn": {
+      "type": "string",
+      "description": "Definition in Setswana (optional but strongly encouraged for native speaker contributions)"
+    },
+    "example_sentence": {
+      "type": "string",
+      "description": "Example sentence in Setswana using this word in context"
+    },
+    "example_sentence_en": {
+      "type": "string",
+      "description": "English translation of example_sentence"
+    },
+    "synonyms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "List of Setswana synonyms"
+    },
+    "source": {
+      "type": "string",
+      "description": "Citation or source for this entry (e.g. dictionary title, academic paper, contributor initials)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Optional descriptive tags such as 'formal', 'colloquial', 'archaic', 'loanword', 'proverb'"
+    }
+  }
+}
