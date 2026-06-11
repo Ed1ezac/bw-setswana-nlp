@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "count": 18,
+    "license": "CC BY 4.0",
+    "attribution": "bw-setswana-nlp contributors, https://github.com/ed1ezac/bw-setswana-nlp",
+    "notes": "Seed entries to establish schema and validate format. All POS types represented. Native speaker review encouraged."
+  },
+  "lexicon": [
+    {
+      "word": "motho",
+      "pos": "noun",
+      "noun_class": 1,
+      "definition_en": "person; human being",
+      "definition_tn": "motho yo o tshedang",
+      "example_sentence": "Motho yo o bua Setswana.",
+      "example_sentence_en": "This person speaks Setswana.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "batho",
+      "pos": "noun",
+      "noun_class": 2,
+      "definition_en": "people; persons (plural of motho)",
+      "example_sentence": "Batho ba a bua.",
+      "example_sentence_en": "People are speaking.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "ntlo",
+      "pos": "noun",
+      "noun_class": 9,
+      "definition_en": "house; home; dwelling",
+      "example_sentence": "Ntlo e e kwa moseja.",
+      "example_sentence_en": "The house is over there.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "naga",
+      "pos": "noun",
+      "noun_class": 9,
+      "definition_en": "country; land; wilderness; open land",
+      "definition_tn": "lefatshe le le gakologelwang",
+      "example_sentence": "Lefatshe la Botswana le a galalela.",
+      "example_sentence_en": "The country of Botswana is beautiful.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "lefatshe",
+      "pos": "noun",
+      "noun_class": 5,
+      "definition_en": "land; earth; country; world; ground",
+      "example_sentence": "Lefatshe le le gakologelwang.",
+      "example_sentence_en": "The land is beautiful.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "leina",
+      "pos": "noun",
+      "noun_class": 5,
+      "definition_en": "name",
+      "example_sentence": "Leina la me ke Edgar.",
+      "example_sentence_en": "My name is Edgar.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "pula",
+      "pos": "noun",
+      "noun_class": 9,
+      "definition_en": "rain; Botswana currency (Pula)",
+      "definition_tn": "pula e e welang go tswa magodimong; madi a Botswana",
+      "example_sentence": "Pula e a na.",
+      "example_sentence_en": "It is raining.",
+      "source": "common vocabulary",
+      "tags": ["cultural"]
+    },
+    {
+      "word": "kgosi",
+      "pos": "noun",
+      "noun_class": 1,
+      "definition_en": "chief; king; ruler; traditional leader",
+      "example_sentence": "Kgosi e e nna kwa gae.",
+      "example_sentence_en": "The chief lives at home.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "bua",
+      "pos": "verb",
+      "definition_en": "to speak; to say; to talk",
+      "example_sentence": "Ke a bua Setswana.",
+      "example_sentence_en": "I speak Setswana.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "ja",
+      "pos": "verb",
+      "definition_en": "to eat",
+      "example_sentence": "Bana ba a ja.",
+      "example_sentence_en": "The children are eating.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "tsamaya",
+      "pos": "verb",
+      "definition_en": "to walk; to go; to travel; to leave",
+      "example_sentence": "Re tsamaya go ya kwa toropong.",
+      "example_sentence_en": "We are going to town.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "nna",
+      "pos": "verb",
+      "definition_en": "to live; to stay; to be; to sit",
+      "example_sentence": "Ke nna kwa Gaborone.",
+      "example_sentence_en": "I live in Gaborone.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "golo",
+      "pos": "adjective",
+      "definition_en": "big; great; large",
+      "example_sentence": "Ntlo e e golo.",
+      "example_sentence_en": "The house is big.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "ntle",
+      "pos": "adjective",
+      "definition_en": "beautiful; nice; good-looking; fine",
+      "example_sentence": "Lefatshe le le ntle.",
+      "example_sentence_en": "The country is beautiful.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "gape",
+      "pos": "adverb",
+      "definition_en": "again; also; moreover; in addition",
+      "example_sentence": "Ke tla gape.",
+      "example_sentence_en": "I will come again.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "le",
+      "pos": "conjunction",
+      "definition_en": "and; with; also",
+      "example_sentence": "Ke na le ngwana le mosadi.",
+      "example_sentence_en": "I have a child and a wife.",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "ee",
+      "pos": "interjection",
+      "definition_en": "yes",
+      "source": "common vocabulary"
+    },
+    {
+      "word": "nnyaa",
+      "pos": "interjection",
+      "definition_en": "no",
+      "source": "common vocabulary"
+    }
+  ]
+}
