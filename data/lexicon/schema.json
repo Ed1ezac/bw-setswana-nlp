@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ed1ezac/bw-setswana-nlp/data/lexicon/schema.json",
+  "title": "bw-setswana-nlp Lexicon Entry",
+  "description": "Schema for a single Setswana (tn-BW) lexicon entry. The lexicon file is a JSON array of objects, each validating against this schema. See docs/lexicon-guide.md for field-by-field guidance and conventions.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["word", "pos", "definition", "example", "example_translation", "tags"],
+    "properties": {
+      "word": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The headword. Nouns, pronouns, numerals, interjections and greetings are given in their normal written form. Verbs are cited as their stem (the form following the infinitive prefix 'go', e.g. 'bua'). Adjective stems are bound morphemes that never stand alone, so they are cited with a leading hyphen (e.g. '-tona')."
+      },
+      "pos": {
+        "type": "string",
+        "description": "Part of speech. Restricted to the controlled vocabulary documented in docs/lexicon-guide.md.",
+        "enum": ["noun", "verb", "pronoun", "numeral", "adjective", "interjection"]
+      },
+      "noun_class": {
+        "type": "integer",
+        "description": "Setswana (Bantu) noun class number. Mandatory for nouns. See docs/lexicon-guide.md for the numbering convention used (1, 1a, 2, 2a, 3-15). Class 1a/2a personal nouns are recorded as 1 and 2 respectively unless distinguished.",
+        "enum": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15]
+      },
+      "definition": {
+        "type": "string",
+        "minLength": 1,
+        "description": "English-language definition. Multiple senses are separated by a semicolon."
+      },
+      "plural": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Plural form. Mandatory for nouns. For mass nouns or nouns with no distinct plural, the same form is repeated and a 'mass-noun' tag is added."
+      },
+      "example": {
+        "type": "string",
+        "minLength": 1,
+        "description": "A short, natural Setswana sentence using the headword."
+      },
+      "example_translation": {
+        "type": "string",
+        "minLength": 1,
+        "description": "English translation of the example sentence."
+      },
+      "tags": {
+        "type": "array",
+        "description": "Free-form lowercase keywords for grouping and filtering (e.g. 'common', 'human', 'animal', 'greeting').",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "uniqueItems": true
+      },
+      "flag": {
+        "type": "string",
+        "description": "Optional review marker. 'needs-review' signals an entry whose accuracy (spelling, noun class, plural, or meaning) requires confirmation by a native speaker. Flagged noun entries are exempt from the mandatory noun_class/plural requirement until confirmed.",
+        "enum": ["needs-review"]
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": { "pos": { "const": "noun" } },
+          "required": ["pos"],
+          "not": { "required": ["flag"] }
+        },
+        "then": {
+          "required": ["noun_class", "plural"]
+        }
+      }
+    ]
+  }
+}
