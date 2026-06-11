@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bw-setswana-nlp"
+version = "0.1.0-dev"
+description = "NLP toolkit and language resources for Setswana as spoken in Botswana (tn-BW)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Edgar Kealeboga", email = "ed1ezac@gmail.com" }]
+requires-python = ">=3.9"
+keywords = [
+    "setswana",
+    "tswana",
+    "nlp",
+    "african-languages",
+    "tn-BW",
+    "botswana",
+    "natural-language-processing",
+    "language-resources",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Other",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+# Zero runtime dependencies in Phase 1 — tokenizer uses stdlib only (re, unicodedata)
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff>=0.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/ed1ezac/bw-setswana-nlp"
+"Bug Tracker" = "https://github.com/ed1ezac/bw-setswana-nlp/issues"
+Documentation = "https://github.com/ed1ezac/bw-setswana-nlp/tree/master/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short"
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "UP", "I"]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
