@@ -44,7 +44,9 @@ def is_setswana_char(char: str) -> bool:
         ValueError: If char is not a single character.
     """
     if len(char) != 1:
-        raise ValueError(f"Expected a single character, got string of length {len(char)!r}")
+        raise ValueError(
+            f"Expected a single character, got string of length {len(char)}"
+        )
     return char.isalpha() or char == "'"
 
 
@@ -72,7 +74,5 @@ def remove_diacritics(text: str) -> str:
         'motho'
     """
     return "".join(
-        c
-        for c in unicodedata.normalize("NFD", text)
-        if unicodedata.category(c) != "Mn"
+        c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn"
     )

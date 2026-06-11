@@ -11,7 +11,6 @@ Handles Setswana-specific orthographic conventions:
 """
 
 import re
-from typing import Optional
 
 from bw_setswana_nlp.utils.text import normalize_text
 

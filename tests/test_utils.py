@@ -82,13 +82,13 @@ class TestIsSetswanaChar:
 
 class TestRemoveDiacritics:
     def test_removes_acute_accent(self):
-        assert remove_diacritics("\xe9") == "e"   # é → e
+        assert remove_diacritics("\xe9") == "e"  # é → e
 
     def test_removes_grave_accent(self):
-        assert remove_diacritics("\xe0") == "a"   # à → a
+        assert remove_diacritics("\xe0") == "a"  # à → a
 
     def test_removes_circumflex(self):
-        assert remove_diacritics("\xea") == "e"   # ê → e
+        assert remove_diacritics("\xea") == "e"  # ê → e
 
     def test_plain_setswana_word_unchanged(self):
         assert remove_diacritics("motho") == "motho"

@@ -8,8 +8,6 @@ See docs/orthography.md for the full digraph reference.
 See docs/contributing/tokenizer-guide.md for edge case documentation.
 """
 
-import pytest
-
 from bw_setswana_nlp.tokenizer import Tokenizer
 
 

@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package with dev dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Run tests
+        run: pytest -v --cov
+
+  lint:
+    name: Lint (ruff)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ruff
+        run: pip install "ruff>=0.4"
+
+      - name: Check lint rules
+        run: ruff check src/ tests/
+
+      - name: Check formatting
+        run: ruff format --check src/ tests/
+
+  validate-data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate lexicon against schema
+        run: |
+          python - <<'EOF'
+          import json
+          from jsonschema import validate
+
+          with open("data/lexicon/schema.json") as f:
+              schema = json.load(f)
+          with open("data/lexicon/lexicon.json") as f:
+              data = json.load(f)
+
+          entries = data["lexicon"]
+          for entry in entries:
+              validate(instance=entry, schema=schema)
+
+          declared = data["metadata"]["count"]
+          actual = len(entries)
+          assert declared == actual, (
+              f"metadata.count is {declared} but lexicon has {actual} entries"
+          )
+          print(f"OK: {actual} lexicon entries valid against schema")
+          EOF
+
+      - name: Validate locale JSON
+        run: |
+          python - <<'EOF'
+          import json
+
+          with open("data/locale/tn-BW.json") as f:
+              locale = json.load(f)
+
+          assert locale["locale"] == "tn-BW"
+          assert len(locale["dates"]["months_long"]) == 12
+          assert len(locale["dates"]["months_short"]) == 12
+          assert len(locale["dates"]["days_long"]) == 7
+          assert len(locale["dates"]["days_short"]) == 7
+          print("OK: tn-BW.json structure valid")
+          EOF
+
+      - name: Validate corpus metadata sidecars
+        run: |
+          python - <<'EOF'
+          import json
+          from pathlib import Path
+
+          required = {"filename", "source", "year", "license", "domain"}
+          meta_files = list(Path("data/corpus").glob("*.meta.json"))
+          for meta_path in meta_files:
+              with open(meta_path) as f:
+                  meta = json.load(f)
+              missing = required - meta.keys()
+              assert not missing, f"{meta_path}: missing fields {missing}"
+              txt = Path("data/corpus") / meta["filename"]
+              assert txt.exists(), f"{meta_path}: references missing file {txt}"
+          print(f"OK: {len(meta_files)} corpus metadata files valid")
+          EOF
