@@ -1,3 +1,4 @@
+
 [
   {
     "word": "motho",
@@ -15,7 +16,7 @@
     "noun_class": 1,
     "definition": "a man; adult male",
     "plural": "banna",
-    "example": "Monna o a dira.",
+    "example": "Monna o a bereka.",
     "example_translation": "The man is working.",
     "tags": ["common", "human"]
   },
@@ -25,7 +26,7 @@
     "noun_class": 1,
     "definition": "a woman; adult female; wife",
     "plural": "basadi",
-    "example": "Mosadi o apaya dijo.",
+    "example": "Mosadi o apeile dijo.",
     "example_translation": "The woman is cooking food.",
     "tags": ["common", "human"]
   },
@@ -36,7 +37,7 @@
     "definition": "a child",
     "plural": "bana",
     "example": "Ngwana o a lela.",
-    "example_translation": "The child is crying.",
+    "example_translation": "A child is crying.",
     "tags": ["common", "human"]
   },
   {
@@ -45,8 +46,8 @@
     "noun_class": 1,
     "definition": "a boy",
     "plural": "basimane",
-    "example": "Mosimane o taboga ka bonako.",
-    "example_translation": "The boy runs fast.",
+    "example": "Mosimane o tabogile.",
+    "example_translation": "The boy is running.",
     "tags": ["common", "human"]
   },
   {
@@ -56,7 +57,7 @@
     "definition": "a girl",
     "plural": "basetsana",
     "example": "Mosetsana o opela pina.",
-    "example_translation": "The girl is singing a song.",
+    "example_translation": "A girl is singing a song.",
     "tags": ["common", "human"]
   },
   {
@@ -65,7 +66,7 @@
     "noun_class": 1,
     "definition": "father; sir; mister (term of respect for a man)",
     "plural": "borre",
-    "example": "Rre o a dira.",
+    "example": "Rre o a bereka.",
     "example_translation": "Father is working.",
     "tags": ["common", "human", "kinship"]
   },
@@ -75,7 +76,7 @@
     "noun_class": 1,
     "definition": "mother; madam (term of respect for a woman)",
     "plural": "bomme",
-    "example": "Mme o apaya bogobe.",
+    "example": "Mme o apeile bogobe.",
     "example_translation": "Mother is cooking porridge.",
     "tags": ["common", "human", "kinship"]
   },
@@ -85,17 +86,17 @@
     "noun_class": 9,
     "definition": "a cow; head of cattle",
     "plural": "dikgomo",
-    "example": "Kgomo e ja bojang.",
-    "example_translation": "The cow is eating grass.",
+    "example": "Kgomo e a fula.",
+    "example_translation": "The cow is grazing.",
     "tags": ["common", "animal", "livestock"]
   },
   {
-    "word": "ntja",
+    "word": "ntsa",
     "pos": "noun",
     "noun_class": 9,
     "definition": "a dog",
-    "plural": "dintja",
-    "example": "Ntja e a bogola.",
+    "plural": "dintsa",
+    "example": "Ntsa e a bogola.",
     "example_translation": "The dog is barking.",
     "tags": ["common", "animal"]
   },
@@ -115,8 +116,8 @@
     "noun_class": 9,
     "definition": "a sheep",
     "plural": "dinku",
-    "example": "Nku e ja bojang.",
-    "example_translation": "The sheep eats grass.",
+    "example": "Nku e a fula.",
+    "example_translation": "The sheep is grazing.",
     "tags": ["common", "animal", "livestock"]
   },
   {
@@ -136,7 +137,7 @@
     "definition": "a lion",
     "plural": "ditau",
     "example": "Tau ke phologolo e e maatla.",
-    "example_translation": "The lion is a strong animal.",
+    "example_translation": "A lion is a strong animal.",
     "tags": ["animal", "wildlife"]
   },
   {
@@ -146,7 +147,7 @@
     "definition": "an elephant",
     "plural": "ditlou",
     "example": "Tlou ke phologolo e kgolo.",
-    "example_translation": "The elephant is a big animal.",
+    "example_translation": "An elephant is a big animal.",
     "tags": ["animal", "wildlife"]
   },
   {
@@ -166,7 +167,7 @@
     "definition": "a fish",
     "plural": "ditlhapi",
     "example": "Tlhapi e tshela mo metsing.",
-    "example_translation": "The fish lives in the water.",
+    "example_translation": "A fish lives in water.",
     "tags": ["common", "animal"]
   },
   {
@@ -215,7 +216,7 @@
     "noun_class": 5,
     "definition": "a tooth",
     "plural": "meno",
-    "example": "Leino la me le botlhoko.",
+    "example": "Leino lame le botlhoko.",
     "example_translation": "My tooth hurts.",
     "tags": ["common", "body"]
   },
@@ -235,7 +236,7 @@
     "noun_class": 5,
     "definition": "a leg; foot",
     "plural": "maoto",
-    "example": "Leoto la me le botlhoko.",
+    "example": "Leoto lame le botlhoko.",
     "example_translation": "My leg hurts.",
     "tags": ["common", "body"]
   },
@@ -245,7 +246,7 @@
     "noun_class": 9,
     "definition": "a head",
     "plural": "ditlhogo",
-    "example": "Tlhogo ya me e botlhoko.",
+    "example": "Tlhogo yame e botlhoko.",
     "example_translation": "My head aches.",
     "tags": ["common", "body"]
   },
@@ -254,7 +255,7 @@
     "pos": "noun",
     "noun_class": 5,
     "definition": "the sun; a day",
-    "plural": "matsatsi",
+    "plural": "malatsi",
     "example": "Letsatsi le a phatsima.",
     "example_translation": "The sun is shining.",
     "tags": ["common", "nature", "time"]
@@ -295,8 +296,8 @@
     "noun_class": 9,
     "definition": "a mountain; hill",
     "plural": "dithaba",
-    "example": "Thaba e telele.",
-    "example_translation": "The mountain is high.",
+    "example": "Thaba e tona.",
+    "example_translation": "The mountain is big.",
     "tags": ["common", "nature", "place"]
   },
   {
@@ -325,7 +326,7 @@
     "noun_class": 9,
     "definition": "a house; home; room",
     "plural": "matlo",
-    "example": "Ntlo ya rona e kgolo.",
+    "example": "Ntlo ya rona e kgolwane.",
     "example_translation": "Our house is big.",
     "tags": ["common", "place", "household"]
   },
@@ -377,8 +378,8 @@
     "word": "tsamaya",
     "pos": "verb",
     "definition": "to walk; to go; to leave",
-    "example": "Ke tsamaya kwa gae.",
-    "example_translation": "I am going home.",
+    "example": "Ke tsamaya le wena.",
+    "example_translation": "I am going with you.",
     "tags": ["common", "action", "movement"]
   },
   {
@@ -402,7 +403,7 @@
     "pos": "verb",
     "definition": "to enter; to come in",
     "example": "Tsena mo ntlong.",
-    "example_translation": "Come into the house.",
+    "example_translation": "Come inside the house.",
     "tags": ["common", "action", "movement"]
   },
   {
@@ -410,14 +411,14 @@
     "pos": "verb",
     "definition": "to go out; to come from; to exit",
     "example": "O tswa kae?",
-    "example_translation": "Where do you come from?",
+    "example_translation": "Where are you from?",
     "tags": ["common", "action", "movement"]
   },
   {
-    "word": "dula",
+    "word": "Nna",
     "pos": "verb",
     "definition": "to sit; to stay; to live; to remain",
-    "example": "Dula fa fatshe.",
+    "example": "Nna fa fatshe.",
     "example_translation": "Sit down.",
     "tags": ["common", "action"]
   },
@@ -456,15 +457,15 @@
   {
     "word": "utlwa",
     "pos": "verb",
-    "definition": "to hear; to feel; to understand",
+    "definition": "to hear; to feel",
     "example": "O a nkutlwa?",
-    "example_translation": "Do you understand me?",
+    "example_translation": "Do you hear me?",
     "tags": ["common", "action", "perception"]
   },
   {
     "word": "rata",
     "pos": "verb",
-    "definition": "to love; to like; to want",
+    "definition": "to love; to like",
     "example": "Ke rata Setswana.",
     "example_translation": "I love Setswana.",
     "tags": ["common", "action", "emotion"]
@@ -480,7 +481,7 @@
   {
     "word": "dira",
     "pos": "verb",
-    "definition": "to do; to make; to work",
+    "definition": "to do; to make",
     "example": "O dira eng?",
     "example_translation": "What are you doing?",
     "tags": ["common", "action"]
@@ -505,8 +506,8 @@
     "word": "tsaya",
     "pos": "verb",
     "definition": "to take; to pick up",
-    "example": "Tsaya seatla sa me.",
-    "example_translation": "Take my hand.",
+    "example": "Tsaya mpho ya gago.",
+    "example_translation": "Take your gift.",
     "tags": ["common", "action"]
   },
   {
@@ -577,7 +578,7 @@
     "word": "rona",
     "pos": "pronoun",
     "definition": "we; us (first person plural, absolute pronoun)",
-    "example": "Rona re a dira.",
+    "example": "Rona re a bereka.",
     "example_translation": "We are working.",
     "tags": ["common", "pronoun", "person"]
   },
@@ -586,7 +587,7 @@
     "pos": "pronoun",
     "definition": "you (second person plural, absolute pronoun)",
     "example": "Lona le tswa kae?",
-    "example_translation": "Where do you come from?",
+    "example_translation": "Where are you from?",
     "tags": ["common", "pronoun", "person"]
   },
   {
@@ -656,17 +657,17 @@
   {
     "word": "borobabobedi",
     "pos": "numeral",
-    "definition": "eight (8). Agrees with the noun class (e.g. dipodi tse robedi 'eight goats').",
-    "example": "Ke rekile dipodi tse robedi.",
+    "definition": "eight (8).",
+    "example": "Ke rekile dipodi di le borobabobedi.",
     "example_translation": "I bought eight goats.",
     "tags": ["common", "number"]
   },
   {
     "word": "borobabongwe",
     "pos": "numeral",
-    "definition": "nine (9). Agrees with the noun class (e.g. dikgomo tse robongwe 'nine cows').",
-    "example": "O na le dikgomo tse robongwe.",
-    "example_translation": "He has nine cows.",
+    "definition": "nine (9). Acts as noun class aswell.",
+    "example": "O na le dikgomo di le borobabongwe.",
+    "example_translation": "He has nine cattle.",
     "tags": ["common", "number"]
   },
   {
@@ -729,8 +730,8 @@
     "word": "sedikadike",
     "pos": "numeral",
     "definition": "one million (1 000 000).",
-    "example": "Naga e na le batho ba ka nna sedikadike.",
-    "example_translation": "The country has about a million people.",
+    "example": "Lefatshe le na le batho ba ka nna sedikadike.",
+    "example_translation": "A country has about a million people.",
     "tags": ["number", "large-number"]
   },
   {
@@ -764,7 +765,7 @@
     "word": "Labone",
     "pos": "noun",
     "definition": "Thursday (literally 'the fourth day')",
-    "example": "Ke a dira ka Labone.",
+    "example": "Ke a bereka ka Labone.",
     "example_translation": "I work on Thursday.",
     "tags": ["common", "time", "day-of-week"],
     "flag": "needs-review"
@@ -782,7 +783,7 @@
     "word": "Matlhatso",
     "pos": "noun",
     "definition": "Saturday",
-    "example": "Re a itapolosa ka Matlhatso.",
+    "example": "Re itapolosa ka Matlhatso.",
     "example_translation": "We rest on Saturday.",
     "tags": ["common", "time", "day-of-week"],
     "flag": "needs-review"
@@ -817,7 +818,7 @@
     "pos": "interjection",
     "definition": "goodbye (said by the one leaving to the one staying); literally 'stay well'",
     "example": "Ke a tsamaya, sala sentle.",
-    "example_translation": "I am leaving, stay well.",
+    "example_translation": "I am leaving, goodbye.",
     "tags": ["common", "greeting", "farewell"]
   },
   {
@@ -832,7 +833,7 @@
     "word": "Ke a leboga",
     "pos": "interjection",
     "definition": "thank you",
-    "example": "Ke a leboga thata.",
+    "example": "Ke leboga go menagane.",
     "example_translation": "Thank you very much.",
     "tags": ["common", "greeting", "politeness"]
   },
@@ -840,7 +841,7 @@
     "word": "Go siame",
     "pos": "interjection",
     "definition": "it is okay; alright; fine",
-    "example": "Go siame, ke a utlwa.",
+    "example": "Go siame, ke a tlhaloganya.",
     "example_translation": "It's okay, I understand.",
     "tags": ["common", "greeting", "politeness"]
   },
@@ -872,7 +873,7 @@
     "word": "-ntsho",
     "pos": "adjective",
     "definition": "black; dark",
-    "example": "Ntja e ntsho.",
+    "example": "Ntsa e ntsho.",
     "example_translation": "The dog is black.",
     "tags": ["common", "adjective", "colour"]
   },
@@ -885,10 +886,10 @@
     "tags": ["common", "adjective", "colour"]
   },
   {
-    "word": "-hibidu",
+    "word": "-tshibidu",
     "pos": "adjective",
     "definition": "red",
-    "example": "Madi a mahibidu.",
+    "example": "Madi a mashibidu.",
     "example_translation": "Blood is red.",
     "tags": ["common", "adjective", "colour"]
   },
@@ -912,8 +913,8 @@
     "word": "-khutshwane",
     "pos": "adjective",
     "definition": "short",
-    "example": "Tsela e khutshwane.",
-    "example_translation": "The road is short.",
+    "example": "Loeto le le khutshwane.",
+    "example_translation": "A short trip.",
     "tags": ["common", "adjective", "size"]
   },
   {
@@ -929,7 +930,7 @@
     "pos": "adjective",
     "definition": "beautiful; nice; good",
     "example": "Letsatsi le lentle.",
-    "example_translation": "It is a nice day.",
+    "example_translation": "A nice day.",
     "tags": ["common", "adjective"]
   }
 ]
