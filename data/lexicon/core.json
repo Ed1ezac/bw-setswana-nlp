@@ -598,73 +598,73 @@
     "tags": ["common", "pronoun", "person"]
   },
   {
-    "word": "nngwe",
+    "word": "bongwe",
     "pos": "numeral",
-    "definition": "one (1); the counting form agrees with the noun class, e.g. mongwe (class 1)",
+    "definition": "one (1); abstract counting form. Agrees with the noun class in use (e.g. kgomo e le nngwe 'one cow').",
     "example": "Ke na le kgomo e le nngwe.",
     "example_translation": "I have one cow.",
     "tags": ["common", "number"]
   },
   {
-    "word": "pedi",
+    "word": "bobedi",
     "pos": "numeral",
-    "definition": "two (2)",
+    "definition": "two (2). Agrees with the noun class (e.g. dikgomo tse pedi 'two cows').",
     "example": "Ke na le dikgomo tse pedi.",
     "example_translation": "I have two cows.",
     "tags": ["common", "number"]
   },
   {
-    "word": "tharo",
+    "word": "boraro",
     "pos": "numeral",
-    "definition": "three (3)",
+    "definition": "three (3). Agrees with the noun class (e.g. banna ba bararo 'three men').",
     "example": "Ke bone banna ba bararo.",
     "example_translation": "I saw three men.",
     "tags": ["common", "number"]
   },
   {
-    "word": "nne",
+    "word": "bone",
     "pos": "numeral",
-    "definition": "four (4)",
+    "definition": "four (4). Agrees with the noun class (e.g. dipodi tse nne 'four goats').",
     "example": "O na le dipodi tse nne.",
     "example_translation": "He has four goats.",
     "tags": ["common", "number"]
   },
   {
-    "word": "tlhano",
+    "word": "botlhano",
     "pos": "numeral",
-    "definition": "five (5)",
+    "definition": "five (5). Agrees with the noun class (e.g. menwana e metlhano 'five fingers').",
     "example": "Seatla se na le menwana e metlhano.",
     "example_translation": "A hand has five fingers.",
     "tags": ["common", "number"]
   },
   {
-    "word": "thataro",
+    "word": "borataro",
     "pos": "numeral",
-    "definition": "six (6)",
+    "definition": "six (6). Agrees with the noun class (e.g. dikgomo tse thataro 'six cows').",
     "example": "Ke na le dikgomo tse thataro.",
     "example_translation": "I have six cows.",
     "tags": ["common", "number"]
   },
   {
-    "word": "supa",
+    "word": "bosupa",
     "pos": "numeral",
-    "definition": "seven (7)",
+    "definition": "seven (7). Agrees with the noun class (e.g. dinku tse supa 'seven sheep').",
     "example": "Re na le dinku tse supa.",
     "example_translation": "We have seven sheep.",
     "tags": ["common", "number"]
   },
   {
-    "word": "robedi",
+    "word": "borobabobedi",
     "pos": "numeral",
-    "definition": "eight (8)",
+    "definition": "eight (8). Agrees with the noun class (e.g. dipodi tse robedi 'eight goats').",
     "example": "Ke rekile dipodi tse robedi.",
     "example_translation": "I bought eight goats.",
     "tags": ["common", "number"]
   },
   {
-    "word": "robongwe",
+    "word": "borobabongwe",
     "pos": "numeral",
-    "definition": "nine (9)",
+    "definition": "nine (9). Agrees with the noun class (e.g. dikgomo tse robongwe 'nine cows').",
     "example": "O na le dikgomo tse robongwe.",
     "example_translation": "He has nine cows.",
     "tags": ["common", "number"]
@@ -672,7 +672,7 @@
   {
     "word": "lesome",
     "pos": "numeral",
-    "definition": "ten (10)",
+    "definition": "ten (10).",
     "example": "Ke na le dikgomo di le lesome.",
     "example_translation": "I have ten cows.",
     "tags": ["common", "number"]
@@ -723,10 +723,10 @@
     "flag": "needs-review"
   },
   {
-    "word": "Lamatlhatso",
+    "word": "Matlhatso",
     "pos": "noun",
     "definition": "Saturday",
-    "example": "Re a itapolosa ka Lamatlhatso.",
+    "example": "Re a itapolosa ka Matlhatso.",
     "example_translation": "We rest on Saturday.",
     "tags": ["common", "time", "day-of-week"],
     "flag": "needs-review"

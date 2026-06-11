@@ -78,7 +78,7 @@ The `pos` field is a closed vocabulary. This seed batch uses:
 | `noun` | Naming word. Requires `noun_class` and `plural`. |
 | `verb` | Action/state word, cited as a stem. |
 | `pronoun` | Personal/absolute pronouns (`nna`, `wena`, …). |
-| `numeral` | Cardinal numbers. Note that counting forms agree with noun class. |
+| `numeral` | Cardinal numbers, cited in the abstract `bo-` counting form (`bongwe`, `bobedi`, `boraro`, …). The form used with a noun agrees with its class (e.g. `dikgomo tse pedi` 'two cows'). |
 | `adjective` | True adjective stems (hyphen-prefixed). |
 | `interjection` | Greetings, farewells, and fixed expressions (`Dumela`, `Go siame`). |
 
