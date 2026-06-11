@@ -678,6 +678,62 @@
     "tags": ["common", "number"]
   },
   {
+    "word": "lesome le bongwe",
+    "pos": "numeral",
+    "definition": "eleven (11); compound of lesome (10) + bongwe (1).",
+    "example": "Ke na le dikgomo di le lesome le bongwe.",
+    "example_translation": "I have eleven cows.",
+    "tags": ["common", "number", "compound"]
+  },
+  {
+    "word": "masome a mabedi",
+    "pos": "numeral",
+    "definition": "twenty (20); literally 'two tens' (masome 'tens' + a mabedi 'two').",
+    "example": "Go na le batho ba le masome a mabedi.",
+    "example_translation": "There are twenty people.",
+    "tags": ["common", "number", "compound"]
+  },
+  {
+    "word": "lekgolo",
+    "pos": "numeral",
+    "definition": "one hundred (100).",
+    "example": "Motse o na le batho ba le lekgolo.",
+    "example_translation": "The village has a hundred people.",
+    "tags": ["common", "number"]
+  },
+  {
+    "word": "lekgolo le masome a mabedi le boraro",
+    "pos": "numeral",
+    "definition": "one hundred and twenty-three (123); compound: lekgolo (100) + masome a mabedi (20) + boraro (3).",
+    "example": "Palo ya batho ke lekgolo le masome a mabedi le boraro.",
+    "example_translation": "The number of people is one hundred and twenty-three.",
+    "tags": ["number", "compound"]
+  },
+  {
+    "word": "makgolo a mabedi",
+    "pos": "numeral",
+    "definition": "two hundred (200); literally 'two hundreds' (makgolo 'hundreds' + a mabedi 'two').",
+    "example": "Go na le dikgomo di le makgolo a mabedi.",
+    "example_translation": "There are two hundred cows.",
+    "tags": ["number", "compound"]
+  },
+  {
+    "word": "sekete",
+    "pos": "numeral",
+    "definition": "one thousand (1 000).",
+    "example": "Motse o na le batho ba le sekete.",
+    "example_translation": "The village has a thousand people.",
+    "tags": ["common", "number"]
+  },
+  {
+    "word": "sedikadike",
+    "pos": "numeral",
+    "definition": "one million (1 000 000).",
+    "example": "Naga e na le batho ba ka nna sedikadike.",
+    "example_translation": "The country has about a million people.",
+    "tags": ["number", "large-number"]
+  },
+  {
     "word": "Mosupologo",
     "pos": "noun",
     "definition": "Monday",
