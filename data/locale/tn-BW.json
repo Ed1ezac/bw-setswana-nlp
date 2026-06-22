@@ -34,21 +34,21 @@
     "time_format_short": "HH:mm",
     "time_format_medium": "HH:mm:ss",
     "months_long": [
-      "Ferikgong",
+      "Firikgong",
       "Tlhakole",
       "Mopitlwe",
       "Moranang",
-      "Motsheanong",
+      "Motsheganong",
       "Seetebosigo",
       "Phukwi",
       "Phatwe",
       "Lwetse",
-      "Diphalane",
+      "Phalane",
       "Ngwanatsele",
       "Sedimonthole"
     ],
     "months_short": [
-      "Fer",
+      "Fir",
       "Tlh",
       "Mop",
       "Mor",
@@ -57,7 +57,7 @@
       "Phu",
       "Pha",
       "Lwe",
-      "Dip",
+      "Pha",
       "Ngw",
       "Sed"
     ],
@@ -68,28 +68,27 @@
       "Labone",
       "Labotlhano",
       "Matlhatso",
-      "Latsatsi"
+      "Tshipi"
     ],
     "days_short": [
       "Mos",
-      "Lbb",
+      "Lbd",
       "Lbr",
       "Lbn",
       "Lbt",
       "Mat",
-      "Lat"
+      "Tsp"
     ],
     "days_min": [
       "Mo",
-      "Lb",
+      "Ld",
       "Lr",
       "Ln",
       "Lt",
       "Ma",
-      "La"
+      "Tp"
     ],
     "am_pm": ["AM", "PM"],
-    "notes": "Month and day names need native speaker verification against official Botswana publications. Months source: traditional Setswana calendar names as used in Botswana. Days source: common usage — verify abbreviations with native speakers."
   },
   "metadata": {
     "version": "0.1.0",
