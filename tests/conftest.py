@@ -19,8 +19,8 @@ def tokenizer_no_punct() -> Tokenizer:
 
 # Real Setswana sentences used across multiple test modules
 SAMPLE_SENTENCES = [
-    "Ke a bua Setswana.",
-    "O tlhoga jang?",
+    "Ke bua Setswana.",
+    "O tsoga jang?",
     "Lefatshe la Botswana le a galalela.",
     "Ntlo e e kwa moseja.",
     "Batho ba a bua.",
