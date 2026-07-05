@@ -94,7 +94,7 @@ class TestRemoveDiacritics:
         assert remove_diacritics("motho") == "motho"
 
     def test_plain_sentence_unchanged(self):
-        assert remove_diacritics("Ke a bua Setswana.") == "Ke a bua Setswana."
+        assert remove_diacritics("Ke bua Setswana.") == "Ke bua Setswana."
 
     def test_empty_string_returns_empty(self):
         assert remove_diacritics("") == ""
